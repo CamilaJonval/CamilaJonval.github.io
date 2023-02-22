@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #297474;
+    line-height: 22.4px;
+}
+h1,h2,h3,h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #297474;
+    line-height: 22.4px;
+    
+
+}
+h1{
+    font-size: 48px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 2px #ccc solid;
+    padding: 0 0 15px;
+}
+
+p{
+    margin: 22.4px 0;
+}
+
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 19.2px;
+    line-height: 22.4px;
+    /**border-top: 1px #ccc solid;*/ 
+    border-bottom: 2px #ccc solid;
+}
+
+
+.fa-envelope:before, .fa-phone:before{
+   margin: 0px 10px;
+   align-self: center;
+}
+
+
+#sobre.mi{
+    vertical-align:middle; 
+}
+
+a{color: #297474;
+text-decoration: none;
+transition: all 0.2s linear;
+}
+
+a:hover {
+    color: #56cbcb;
+    }
+
+.footer_mail{
+    color: white;
+}
+
+
+.container{
+    background: white;
+    width:90%;
+    max-width: 1000px;
+    margin: 32px auto;
+   
+    
+}
+
+#cabecera {
+    text-align: center;
+}
+#cabecera h1{
+    padding: 64px 0;
+}
+
+#area-contenido{
+    display: table;
+}
+#columna-contenido, #sidebar
+{
+    display: table-cell;
+}
+
+#columna-contenido{
+    width: 70%;
+    padding: 32px 32px;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #cbfafa;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #cbfafa; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\02795'; /*signo (+) */
+    font-size: 13px;
+    color: #cbfafa;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /*signo (-) */
+  }
+  
+
+#sidebar{
+    width:30%;
+    background: #cbfafa;
+    border-right: 1px solid #dbdbdb;
+    padding: 32px;
+}
+img{
+    width: 250px;
+    height:auto;
+    float: right;
+    margin: 0 0 25px 0
+}
+#pie-pagina{
+    background: #333;
+    color:white;
+    text-align: center;
+    padding: 16px 0;
+}
+
+/*COMIENZO DE CAJAS DE IDIOMAS*/
+
+.Hard-Skills{
+    column-count: 3;
+}
+
+.cuadrado-progress-1,.cuadrado-progress-2,.cuadrado-progress-3{ 
+    width: 160px;
+}
+
+.outer-1,.outer-2,.outer-3{    /*padding y sombras de la caja*/
+    padding: 12px;
+    box-shadow: 6px 6px 10px -1px #297474,
+                -6px -6px 10px -1px white;
+}
+
+.inner-1,.inner-2,.inner-3{
+    width: 90px;
+    text-align: center;
+}
+
+
+/*FIN DE CAJAS DE IDIOMAS*/
+
+/*COMIENZO BARRA DE PORCENTAJES*/
+
+.habilidades{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    background-color: white;
+}
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.html{
+    background-color: #297474;
+    animation: fillhtml 2s forwards;    
+}
+.css{
+    background-color: #297474;
+    animation: fillcss 2s forwards;    
+}
+.javascript{
+    background-color: #297474;
+    animation: filljavascript 2s forwards;    
+}
+@keyframes fillhtml{
+    0%{width:0;}
+    100%{width:90%;}
+}
+@keyframes fillcss{
+    0%{width:0;}
+    100%{width:70%;}
+}
+@keyframes filljavascript{
+    0%{width:0;}
+    100%{width:50%;}
+}
+
+/**FIN DE PORCENTAJES*/
