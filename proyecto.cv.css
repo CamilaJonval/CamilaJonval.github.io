@@ -36,7 +36,6 @@ p{
     font-style: italic;
     font-size: 19.2px;
     line-height: 22.4px;
-    /**border-top: 1px #ccc solid;*/ 
     border-bottom: 2px #ccc solid;
 }
 
@@ -67,11 +66,10 @@ a:hover {
 
 .container{
     background: white;
-    width:90%;
+    width:80%;
     max-width: 1000px;
     margin: 32px auto;
-   
-    
+      
 }
 
 #cabecera {
@@ -83,17 +81,15 @@ a:hover {
 
 #area-contenido{
     display: table;
+    width:70%;
 }
-#columna-contenido, #sidebar
-{
+#columna-contenido, #sidebar{
     display: table-cell;
 }
 
 #columna-contenido{
-    width: 70%;
     padding: 32px 32px;
 }
-
 
 .accordion {
     background-color: #eee;
@@ -133,11 +129,11 @@ a:hover {
   
 
 #sidebar{
-    width:30%;
     background: #cbfafa;
     border-right: 1px solid #dbdbdb;
     padding: 32px;
 }
+
 img{
     width: 250px;
     height:auto;
@@ -183,7 +179,7 @@ img{
     padding: 10px;
 }
 
-.container{
+.container1{
     width: 100%;
     background-color: white;
 }
