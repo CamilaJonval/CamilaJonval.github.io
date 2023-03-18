@@ -61,6 +61,7 @@ a:hover {
 
 .footer_mail{
     color: white;
+    border-bottom: none;
 }
 
 
@@ -147,7 +148,7 @@ img{
     padding: 16px 0;
 }
 
-/*COMIENZO DE CAJAS DE IDIOMAS*/
+/*CAJAS DE IDIOMAS*/
 
 .Hard-Skills{
     column-count: 3;
@@ -168,10 +169,7 @@ img{
     text-align: center;
 }
 
-
-/*FIN DE CAJAS DE IDIOMAS*/
-
-/*COMIENZO BARRA DE PORCENTAJES*/
+/*BARRA DE PORCENTAJES*/
 
 .habilidades{
     width: 600px;
@@ -215,4 +213,30 @@ img{
     100%{width:50%;}
 }
 
-/**FIN DE PORCENTAJES*/
+/**FORMULARIO*/
+
+.form-register{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    width: 400px;
+    background: #94dada;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:#2b9090;
+}
+
+.controls,.controlstext{
+    width: 100%;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #297474;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.controlstext{padding: 10px 10px 70px 10px;}
